@@ -8,7 +8,7 @@ def oxford_comma(array)
     array.each_with_index do |el, index|
       if index == array.size - 1
         tmp += " and #{el}"
-      else 
+      else
         tmp += el + ", "
       end
     end
